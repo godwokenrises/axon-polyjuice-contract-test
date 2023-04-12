@@ -21,9 +21,14 @@ const config: HardhatUserConfig = {
     ], overrides: {}
   },
   networks: {
-    axon_devnet: {
+    axon_local_devnet: {
       url: "http://127.0.0.1:8000",
       accounts: ["0x37aa0f893d05914a4def0460c0a984d3611546cfb26924d7a7ca6e0db9950a2d"],
+      chainId: 2022,
+    },
+    axon_devnet: {
+      url: "http://34.216.103.183:8000/",
+      accounts: ["0x383fcff8683b8115e31613949be24254b4204ffbe43c227408a76334a2e3fb32"],
       chainId: 2022,
     },
   }
