@@ -33,7 +33,7 @@ const config: HardhatUserConfig = {
     },
     axon_alphanet: {
       url: "https://rpc-alphanet-axon.ckbapp.dev/",
-      accounts: [ "0x383fcff8683b8115e31613949be24254b4204ffbe43c227408a76334a2e3fb32" ],
+      accounts: [ "0x383fcff8683b8115e31613949be24254b4204ffbe43c227408a76334a2e3fb32"],
       chainId: 2022,
     }
   }
