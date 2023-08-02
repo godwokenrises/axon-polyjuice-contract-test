@@ -28,14 +28,20 @@ const config: HardhatUserConfig = {
     },
     axon_devnet: {
       url: "http://34.216.103.183:8000/",
+      // 0xf386573563c3a75dbbd269fce9782620826ddac2
       accounts: ["0x383fcff8683b8115e31613949be24254b4204ffbe43c227408a76334a2e3fb32"],
       chainId: 2022,
     },
     axon_alphanet: {
       url: "https://rpc-alphanet-axon.ckbapp.dev/",
-      accounts: [ "0x383fcff8683b8115e31613949be24254b4204ffbe43c227408a76334a2e3fb32" ],
+      accounts: ["0x383fcff8683b8115e31613949be24254b4204ffbe43c227408a76334a2e3fb32"],
       chainId: 2022,
-    }
+    },
+    forcerelay_devnet: {
+      url: "http://54.238.73.76:8000",
+      accounts: ["0x383fcff8683b8115e31613949be24254b4204ffbe43c227408a76334a2e3fb32"],
+      chainId: 2022,
+    },
   }
 };
 
