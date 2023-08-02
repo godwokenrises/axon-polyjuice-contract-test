@@ -27,7 +27,7 @@ index 144d847..50ad3cb 100644
      async request(args) {
          const jsonRpcRequest = this._getJsonRpcRequest(args.method, args.params);
          const jsonRpcResponse = await this._fetchJsonRpcResponse(jsonRpcRequest);
-+        if (args.method != "eth_chainId" || args.method == "eth_chainId") {
++        if (args.method != "eth_chainId") {
 +            console.log("jsonRpcRequest:", jsonRpcRequest);
 +            console.log("jsonRpcResponse:", jsonRpcResponse);
 +        }
